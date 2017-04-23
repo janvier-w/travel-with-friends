@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193BBD2A1EAD2768005E8D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193BBD291EAD2768005E8D59 /* AppDelegate.swift */; };
+		193BBD2C1EAD2768005E8D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193BBD2B1EAD2768005E8D59 /* ViewController.swift */; };
+		193BBD2F1EAD2768005E8D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193BBD2D1EAD2768005E8D59 /* Main.storyboard */; };
+		193BBD311EAD2768005E8D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193BBD301EAD2768005E8D59 /* Assets.xcassets */; };
+		193BBD341EAD2768005E8D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193BBD321EAD2768005E8D59 /* LaunchScreen.storyboard */; };
+		BC55857B1843B64BFFD18F29 /* Pods_Travel_With_Friends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753AD398283E1B25BB260893 /* Pods_Travel_With_Friends.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		193BBD261EAD2768005E8D59 /* Travel With Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel With Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193BBD291EAD2768005E8D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193BBD2B1EAD2768005E8D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		193BBD2E1EAD2768005E8D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		193BBD301EAD2768005E8D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		193BBD331EAD2768005E8D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193BBD351EAD2768005E8D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753AD398283E1B25BB260893 /* Pods_Travel_With_Friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_With_Friends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A75C87B9E29C9AB5C7B7E85 /* Pods-Travel With Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel With Friends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travel With Friends/Pods-Travel With Friends.release.xcconfig"; sourceTree = "<group>"; };
+		F53E77145AA3CDD141560C82 /* Pods-Travel With Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel With Friends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travel With Friends/Pods-Travel With Friends.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193BBD231EAD2768005E8D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55857B1843B64BFFD18F29 /* Pods_Travel_With_Friends.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179818E176B856ADD1DE4E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				753AD398283E1B25BB260893 /* Pods_Travel_With_Friends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		193BBD1D1EAD2768005E8D59 = {
+			isa = PBXGroup;
+			children = (
+				193BBD281EAD2768005E8D59 /* Travel With Friends */,
+				193BBD271EAD2768005E8D59 /* Products */,
+				683A013599C5F81B0EDB33E7 /* Pods */,
+				179818E176B856ADD1DE4E0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		193BBD271EAD2768005E8D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193BBD261EAD2768005E8D59 /* Travel With Friends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193BBD281EAD2768005E8D59 /* Travel With Friends */ = {
+			isa = PBXGroup;
+			children = (
+				193BBD291EAD2768005E8D59 /* AppDelegate.swift */,
+				193BBD2B1EAD2768005E8D59 /* ViewController.swift */,
+				193BBD2D1EAD2768005E8D59 /* Main.storyboard */,
+				193BBD301EAD2768005E8D59 /* Assets.xcassets */,
+				193BBD321EAD2768005E8D59 /* LaunchScreen.storyboard */,
+				193BBD351EAD2768005E8D59 /* Info.plist */,
+			);
+			path = "Travel With Friends";
+			sourceTree = "<group>";
+		};
+		683A013599C5F81B0EDB33E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53E77145AA3CDD141560C82 /* Pods-Travel With Friends.debug.xcconfig */,
+				8A75C87B9E29C9AB5C7B7E85 /* Pods-Travel With Friends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193BBD251EAD2768005E8D59 /* Travel With Friends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193BBD381EAD2768005E8D59 /* Build configuration list for PBXNativeTarget "Travel With Friends" */;
+			buildPhases = (
+				813C8E6A09E92B4862D14EB6 /* [CP] Check Pods Manifest.lock */,
+				193BBD221EAD2768005E8D59 /* Sources */,
+				193BBD231EAD2768005E8D59 /* Frameworks */,
+				193BBD241EAD2768005E8D59 /* Resources */,
+				0441906C06E3A562BEFB885D /* [CP] Embed Pods Frameworks */,
+				36A221AF8011C58C2D344A72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel With Friends";
+			productName = "Travel With Friends";
+			productReference = 193BBD261EAD2768005E8D59 /* Travel With Friends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193BBD1E1EAD2768005E8D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kevinthrailkill;
+				TargetAttributes = {
+					193BBD251EAD2768005E8D59 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YUYDGGZ6SW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 193BBD211EAD2768005E8D59 /* Build configuration list for PBXProject "Travel With Friends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193BBD1D1EAD2768005E8D59;
+			productRefGroup = 193BBD271EAD2768005E8D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				193BBD251EAD2768005E8D59 /* Travel With Friends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193BBD241EAD2768005E8D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193BBD341EAD2768005E8D59 /* LaunchScreen.storyboard in Resources */,
+				193BBD311EAD2768005E8D59 /* Assets.xcassets in Resources */,
+				193BBD2F1EAD2768005E8D59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0441906C06E3A562BEFB885D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travel With Friends/Pods-Travel With Friends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A221AF8011C58C2D344A72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travel With Friends/Pods-Travel With Friends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813C8E6A09E92B4862D14EB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		193BBD221EAD2768005E8D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193BBD2C1EAD2768005E8D59 /* ViewController.swift in Sources */,
+				193BBD2A1EAD2768005E8D59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		193BBD2D1EAD2768005E8D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193BBD2E1EAD2768005E8D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		193BBD321EAD2768005E8D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193BBD331EAD2768005E8D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193BBD361EAD2768005E8D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		193BBD371EAD2768005E8D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193BBD391EAD2768005E8D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53E77145AA3CDD141560C82 /* Pods-Travel With Friends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YUYDGGZ6SW;
+				INFOPLIST_FILE = "Travel With Friends/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinthrailkill.Travel-With-Friends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		193BBD3A1EAD2768005E8D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A75C87B9E29C9AB5C7B7E85 /* Pods-Travel With Friends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YUYDGGZ6SW;
+				INFOPLIST_FILE = "Travel With Friends/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinthrailkill.Travel-With-Friends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193BBD211EAD2768005E8D59 /* Build configuration list for PBXProject "Travel With Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193BBD361EAD2768005E8D59 /* Debug */,
+				193BBD371EAD2768005E8D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193BBD381EAD2768005E8D59 /* Build configuration list for PBXNativeTarget "Travel With Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193BBD391EAD2768005E8D59 /* Debug */,
+				193BBD3A1EAD2768005E8D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193BBD1E1EAD2768005E8D59 /* Project object */;
+}
